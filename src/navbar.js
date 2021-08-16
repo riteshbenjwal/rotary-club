@@ -42,7 +42,7 @@ const Navbar = () => {
                 </li>
               </ul>
               <form class="d-flex">
-                <button class="btn  btn-outline-success" type="submit">
+                <button class="btn btn-style btn-style-border" type="submit">
                   Contact us
                 </button>
               </form>

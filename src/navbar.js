@@ -9,8 +9,9 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg navbar-light  ">
           <div class="container">
             <a class="navbar-brand" href="#">
-             Rotary Jammu
+            <img className="img-fluid logo" src="./images/logo.png" alt="logo" />
             </a>
+           
             <button
               class="navbar-toggler"
               type="button"

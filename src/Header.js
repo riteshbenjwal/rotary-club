@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
@@ -6,11 +7,21 @@ const Header = () => {
       <header>
         <section className="container main-hero-container">
           <div className="row">
-            <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start">
-              <h1 className="display-3">
-                Support a cause you
-                <br /> Care about
-              </h1>
+            <div
+              data-aos="fade-right"
+              className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start"
+            >
+              <h1 className="display-3">Support a cause you</h1>
+              <div className="typewriter-container display-3">
+              <Typewriter
+                options={{
+                  strings: ["Care About", "Think About"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+              </div>
+
               <p className="main-hero-para">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Impedit qui quod iure nam placeat maxime ipsam vel dolore quasi
@@ -30,9 +41,13 @@ const Header = () => {
 
             {/* Main Header img */}
 
-            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
-              <img className="img-fluid" src="./images/hero1.jpg" alt="" />
-              <img className="img-fluid main-hero-img2" src="./images/hero2.jpg" alt="" />
+            <div data-aos="fade-left" className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
+              <img data-aos="fade-left" className="img-fluid" src="./images/hero1.jpg" alt="" />
+              <img
+                className="img-fluid main-hero-img2"
+                src="./images/hero2.jpg"
+                alt=""
+              />
             </div>
           </div>
         </section>

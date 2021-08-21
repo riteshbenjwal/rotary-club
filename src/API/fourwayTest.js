@@ -8,7 +8,7 @@ const fourwayTest = [
     {
         id: 2,
         title: "Is it FAIR to all Concerned?",
-        info: "We Identify and include all interested and affected parties. We Try to understand the other point-of-views in the context of conflict and reaching shared goals.",
+        info: "We Identify and include all interested and affected parties & Try to understand the other point-of-views in the context of conflict and reaching shared goals.",
 
     },
     {

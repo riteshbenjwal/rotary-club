@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rotary-club/static/css/main.b57bd791.chunk.css",
-    "main.js": "/rotary-club/static/js/main.b29f9792.chunk.js",
-    "main.js.map": "/rotary-club/static/js/main.b29f9792.chunk.js.map",
+    "main.js": "/rotary-club/static/js/main.fcf2a601.chunk.js",
+    "main.js.map": "/rotary-club/static/js/main.fcf2a601.chunk.js.map",
     "runtime-main.js": "/rotary-club/static/js/runtime-main.b7e0fcce.js",
     "runtime-main.js.map": "/rotary-club/static/js/runtime-main.b7e0fcce.js.map",
     "static/js/2.ac8689e8.chunk.js": "/rotary-club/static/js/2.ac8689e8.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b7e0fcce.js",
     "static/js/2.ac8689e8.chunk.js",
     "static/css/main.b57bd791.chunk.css",
-    "static/js/main.b29f9792.chunk.js"
+    "static/js/main.fcf2a601.chunk.js"
   ]
 }

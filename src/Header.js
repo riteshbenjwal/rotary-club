@@ -48,12 +48,12 @@ const Header = () => {
               <img
                 data-aos="fade-left"
                 className="img-fluid"
-                src="../images/hero1-side.jpg"
+                src="./images/hero1-side.jpg"
                 alt=""
               />
               <img
                 className="img-fluid main-hero-img2"
-                src="../images/hero2-side.jpg"
+                src="./images/hero2-side.jpg"
                 alt=""
               />
             </div>

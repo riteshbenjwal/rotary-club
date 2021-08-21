@@ -1,4 +1,5 @@
 import React from "react";
+
 import Typewriter from "typewriter-effect";
 
 const Header = () => {
@@ -13,19 +14,18 @@ const Header = () => {
             >
               <h1 className="display-3">Support a cause you</h1>
               <div className="typewriter-container display-3">
-              <Typewriter
-                options={{
-                  strings: ["Care About", "Think About"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
+                <Typewriter
+                  options={{
+                    strings: ["Care About", "Think About"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
               </div>
 
               <p className="main-hero-para">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Impedit qui quod iure nam placeat maxime ipsam vel dolore quasi
-                explicabo.
+                Rotary is where neighbors, friends, and problem-solvers share
+                ideas, join leaders, and take action to create lasting change.
               </p>
 
               <h3>Get Updates</h3>
@@ -41,11 +41,19 @@ const Header = () => {
 
             {/* Main Header img */}
 
-            <div data-aos="fade-left" className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
-              <img data-aos="fade-left" className="img-fluid" src="./images/hero1.jpg" alt="" />
+            <div
+              data-aos="fade-left"
+              className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images"
+            >
+              <img
+                data-aos="fade-left"
+                className="img-fluid"
+                src="./images/hero1-side.jpg"
+                alt=""
+              />
               <img
                 className="img-fluid main-hero-img2"
-                src="./images/hero2.jpg"
+                src="./images/hero2-side.jpg"
                 alt=""
               />
             </div>

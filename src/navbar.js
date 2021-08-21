@@ -1,14 +1,15 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
   return (
     <>
-      <section className="navbar-bg">
-        <nav class="navbar navbar-expand-lg navbar-light  ">
-          <div class="container">
-            <a class="navbar-brand" href="#">
+      <section classNameName="navbar-bg">
+        <nav className="navbar navbar-expand-lg navbar-light  ">
+          <div className="container">
+            <a className="navbar-brand" href="#">
               <img
                 className="img-fluid logo"
                 src="./images/logo.png"
@@ -28,27 +29,36 @@ const Navbar = () => {
             >
               <span class="navbar-toggler-icon" />
             </button>
-            <div class={`collapse navbar-collapse ${show ? "show" : ""}`}>
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+            <div className={`collapse navbar-collapse ${show ? "show" : ""}`}>
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link active"
+                    aria-current="page"
+                    to="/"
+                  >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">
-                    What we do
-                  </a>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/about">
+                    About us
+                  </NavLink>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    About
-                  </a>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/message">
+                    Message
+                  </NavLink>
                 </li>
               </ul>
-              <form class="d-flex">
-                <button class="btn btn-style btn-style-border" type="submit">
-                  Contact us
+              <form className="d-flex">
+                <button
+                  className="btn btn-style btn-style-border"
+                  type="submit"
+                >
+                  <NavLink className="nav-link m" to="/contact">
+                    Contact
+                  </NavLink>
                 </button>
               </form>
             </div>

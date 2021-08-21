@@ -101,8 +101,8 @@ const Contact = () => {
                       <label
                         class="form-check-label"
                         className="main-hero-para">
-                        I agree that the thapatechnicalpay may contact me at the
-                        email address or phone number above
+                        I agree that the Rotary Jammu Club may contact me at the
+                        email address or phone number provided above.
                       </label>
                     </div>
 

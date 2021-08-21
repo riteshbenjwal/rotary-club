@@ -9,13 +9,13 @@ const AboutUs = () => {
   return (
     <>
       <section className="common-section  four-test">
-        <div className="container mb-5">
+        <div data-aos="flip-left" className="container mb-5">
           <div className="row">
             <div className="col-12 col-lg-5 text-center four-test-leftside-img">
               <img src="./images/four-way-test.png" alt="4test" />
             </div>
             {/* right side data  */}
-            <div className="col-12 col-lg-7 four-test-list">
+            <div data-aos="flip-right" className="col-12 col-lg-7 four-test-list">
               <h1 className="main-heading">Four Way test</h1>
               {aboutData.map((curElem) => {
                 return (
@@ -42,7 +42,7 @@ const AboutUs = () => {
       {/* Second Part */}
 
       <section className="common-section  four-test four-test-rightside">
-        <div className="container mb-5">
+        <div data-aos="flip-right" className="container mb-5">
           <div className="row">
             {/* left  side data  */}
             <div className="col-12 col-lg-7 four-test-rightside-content d-flex justify-content-center align-items-start flex-column ">
@@ -66,7 +66,7 @@ const AboutUs = () => {
             </div>
 
             {/* left side data  */}
-            <div className="col-12 col-lg-5 four-test-rightside-img">
+            <div data-aos="flip-left" className="col-12 col-lg-5 four-test-rightside-img">
               <img src="./images/below-size.png" alt="4test" />
             </div>
           </div>

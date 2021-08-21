@@ -6,7 +6,7 @@ const HowitWorks = () => {
   return (
     <>
       <section>
-        <div className="work-container container">
+        <div data-aos="fade-up" className="work-container container">
           <h1 className="main-heading text-center">Our Causes</h1>
           <div className="row">
             {workData.map((curElem) => {

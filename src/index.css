@@ -171,7 +171,7 @@ header {
 
 .main-herosection-images .main-hero-img2 {
   position: absolute;
-  width: 50%;
+  width: 60%;
   height: 50%;
   left: 78%;
   top: -10%;
@@ -296,6 +296,11 @@ header {
     min-height: 20vh;
   }
 }
+
+
+/* Message Data */
+
+
 
 /* contact us  */
 

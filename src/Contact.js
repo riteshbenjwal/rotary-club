@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="contactus-section">
-        <div className="container">
+      <section className="contactus-section ">
+        <div  data-aos="fade-right" className="container ">
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row">
@@ -26,8 +26,8 @@ const Contact = () => {
                 </div>
 
                 {/* right side contact form  */}
-                <div className="contact-rightside col-12 col-lg-7">
-                  <form method="POST">
+                <div data-aos="fade-left" className="contact-rightside col-12 col-lg-7">
+                  <form data-aos="fade-left" method="POST">
                     <div className="row">
                       <div className="col-12 col-lg-6 contact-input-feild">
                         <input
